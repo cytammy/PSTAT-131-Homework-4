@@ -98,6 +98,8 @@ qda_wkflow <- workflow() %>%
   add_recipe(titanic_recipe)
 ```
 
+We will be fitting a total of 30 models across all folds since there are 3 models, Logistic Regression, Linear Discriminant Analysis, and Quadratic Discriminant Analysis and with 10 folds, there will be 30 models total.
+
 # Question 5:
 *Fitting the models into the folded data*
 ```{r}
